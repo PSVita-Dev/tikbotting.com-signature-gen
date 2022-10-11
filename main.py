@@ -5,7 +5,6 @@ import base64
 
 digs = string.digits + string.ascii_letters
 
-
 def int2base(x, base): #thanks to https://stackoverflow.com/questions/2267362/how-to-convert-an-integer-to-a-string-in-any-base
     if x < 0:
         sign = -1
@@ -76,4 +75,3 @@ if __name__ == "__main__":
     print("tekkys x-argus:"+gen_argus(int(videoid),ts)) # generate argus with the video id (awemeid) parameter and current time
     print("tekkys x-ladon:"+gen_ladon(ts)) # generate ladon with the current time
     print("tekkys x-klython:"+gen_klython(ts)) # generate klython with the current time
-    
